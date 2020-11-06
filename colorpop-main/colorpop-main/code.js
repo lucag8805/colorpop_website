@@ -106,7 +106,7 @@ function setup() {
   var c = createCanvas(400, 600);
   var x = (windowWidth - width) / 2;
   var y = (windowHeight - height) / 2;
-  cnv.position(x, y);
+  c.position(x, y);
   randomPlayerColor();
 }
 
